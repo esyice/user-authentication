@@ -8,9 +8,9 @@
 </head>
 <body>
     <div class="form">
-        <form action="login.php" method="post" class="login">
+        <form action="" method="post" class="login">
             <div class="uname">
-                <label for="username">username</label>
+                <label for="username">Username</label>
                 <input type="email" name="username" autocomplete="off" required>
             </div>
             <div class="password">
@@ -21,7 +21,7 @@
                 <input type="submit" value="Log in">
             </div>
             <div class="signin">
-                dont have account? <button><a href="regisster.html">Sign in</a></button>
+                dont have account? <button><a href="regisster.php">Sign in</a></button>
             </div>
         </form>
         
