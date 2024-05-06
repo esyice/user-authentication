@@ -21,7 +21,7 @@
                 <input type="submit" value="Log in">
             </div>
             <div class="signin">
-                dont have account? <button><a href="regisster.php">Sign in</a></button>
+                dont have account? <button><a href="register.php">Sign in</a></button>
             </div>
         </form>
         
