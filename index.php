@@ -8,20 +8,20 @@
 </head>
 <body>
     <div class="form">
-        <form action="" method="post" class="login">
+        <form action="form.php" method="post" class="login">
             <div class="uname">
-                <label for="username">Username</label>
-                <input type="email" name="username" autocomplete="off" required>
+                <label for="email">Email</label>
+                <input type="email" name="email" autocomplete="off" required>
             </div>
             <div class="password">
                 <label for="password">Password</label>
                 <input type="password" name="password" autocomplete="off" required>
             </div>
             <div class="loginbtm">
-                <input type="submit" value="Log in">
+                <input type="submit" value="Log in" name="logIn">
             </div>
             <div class="signin">
-                dont have account? <button><a href="register.php">Sign in</a></button>
+                dont have account? <button><a href="register.php">Sign Up</a></button>
             </div>
         </form>
         

@@ -7,9 +7,9 @@
     <title>REGISTER</title>
 </head>
 <body>
-    
+
     <div class="form" >
-            <form action="" method="$_POST" class="signup"> 
+            <form action="form.php" method="post" class="signup"> 
                 <div class="name">
                     <label for="name">Name</label>
                     <input type="text" name="name" id="name" autocomplete="off" required>
@@ -23,7 +23,7 @@
                     <input type="password" name="password" autocomplete="off" required>
                 </div>
                 <div class="register">
-                    <input type="submit" value="Sign In">
+                    <input type="submit" value="Sign Up" name="signUp">
                 </div>
                 <div class="loginbtm">
                     have a account? <button><a href="index.php">Log in</a></button>
